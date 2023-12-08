@@ -17,7 +17,8 @@ The included backend server runs on port 8080, 127.0.0.1:8080
 
 ## File placements
 
-- index.html and index placed in /var/www/my-site
+- index.html placed in /var/www/my-site
 - hello-server.service placed in /etc/systemd/system
 - hello.conf placed in /etc/nginx/sites-avilable
 - Symbolic link of hello.conf placed in /etc/nginx/sites-enabled
+- index placed in /var/www (I didn't want alternating patterns)
